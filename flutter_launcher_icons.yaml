@@ -1,0 +1,30 @@
+flutter_launcher_icons:
+  image_path: "assets/icons/app_icon.png"
+
+  android: true
+  min_sdk_android: 21
+  # Optional: adaptive icon background (can be a solid color or image)
+  # adaptive_icon_background: "#000000"
+  # adaptive_icon_foreground: "assets/icons/app_icon.png"
+
+  ios: true
+  remove_alpha_channel_ios: true
+
+  web:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+    background_color: "#1a1a1a" # Dark background (match your theme)
+    theme_color: "#2196f3" # Blue accent (adjust to match your brand)
+
+  windows:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+    icon_size: 256 # Max resolution for best quality
+
+  macos:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+
+  linux:
+    generate: true
+    image_path: "assets/icons/app_icon.png"

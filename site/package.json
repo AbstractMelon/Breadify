@@ -1,0 +1,16 @@
+{
+  "name": "breadify",
+  "version": "1.0.0",
+  "description": "Breadify website",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "pm2 start server.js --name=breadify"
+  },
+  "keywords": [],
+  "author": "Abstractmelon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
